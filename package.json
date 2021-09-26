@@ -1,0 +1,25 @@
+{
+  "name": "react-heroku",
+  "version": "1.0.0",
+  "description": "Test web app using NodeJS (Express for backend) + React (Front) with Heroku",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "proxy": "http://localhost:3001",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danjang/node-react-heroku.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danjang/node-react-heroku/issues"
+  },
+  "homepage": "https://github.com/danjang/node-react-heroku#readme",
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
