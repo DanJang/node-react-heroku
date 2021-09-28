@@ -1,5 +1,6 @@
 // server/index.js
 
+const path = require('path');
 const express = require("express")
 const PORT = process.env.PORT || 3001;
 // const PORT = process.env.PORT || 8888;
@@ -11,7 +12,7 @@ app.use(express.static(path.resolve(__dirname, '../client/build')));
 
 // Handle GET requests to /api route
 app.get("/api", (req, res) => {
-  res.json({ message: "Hello from server!" });
+  res.json({ message: "Hello from Daniel server!" });
 });
 
 // All other GET requests not handled before will return our React app
