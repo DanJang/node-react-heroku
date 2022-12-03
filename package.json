@@ -1,6 +1,9 @@
 {
   "name": "react-heroku",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.14.1"
+  },  
   "description": "Test web app using NodeJS (Express for backend) + React (Front) with Heroku",
   "main": "index.js",
   "scripts": {
